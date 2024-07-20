@@ -1,0 +1,56 @@
+{
+    "name": "XR Input",
+    "maps": [
+        {
+            "name": "VoiceActivation",
+            "id": "359c4287-b459-4be9-8a4f-6a11f57a6c4e",
+            "actions": [
+                {
+                    "name": "TriggerPress",
+                    "type": "Button",
+                    "id": "7dd42bc0-576a-4502-8d7f-d077b9ed9835",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "65902380-9aed-4706-a4f8-26b58f75c386",
+                    "path": "<XRController>{LeftHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "39a5bf34-fcdf-41af-a2c0-b2f423d64dd6",
+                    "path": "<XRController>{RightHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dfbf5e88-8a30-41df-b81b-e79891b591cf",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
